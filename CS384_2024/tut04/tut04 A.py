@@ -9,6 +9,8 @@ def add_student(students, name, grades):
 def update_student(students, name, grades):
     name = name.lower()
     if name in students:
+        
+        
         students[name].extend(grades)
         print(f"Grades updated for student {name}.")
     else:
